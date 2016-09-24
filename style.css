@@ -1,0 +1,445 @@
+/* 
+    Document   : style
+    Created on : Jun 12, 2016, 11:56:25 PM
+    Author     : dell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    margin:0px ;
+    padding:3px ;
+    border:2px solid blue ;
+    
+}
+
+#header{
+    height:225px;
+    background-color: #000040;
+    margin-top: 0px;
+    position:relative;
+}
+#logo{
+    width:150px;
+    height:110px;
+    position: absolute;
+    top:20px;
+    left:20px;
+    border:1px solid ;
+}
+#sitename{
+    text-align: center;
+    font-family: "times new roman" , serif ;
+    font-style: italic;
+    font-size: 36px;
+    color: #FFFFFF;
+    position: relative;
+    top: 50px;
+}
+#siteintro{
+     text-align: center;
+    font-family: "times new roman" , serif ;
+    font-style: italic;
+    font-size: 20px;
+    color: #FFFFFF;
+    position: relative;
+    top: 60px;
+    
+}
+#signin{
+    display:block;
+    position:absolute;
+    right:45px;
+    top:120px;
+    color:#FFFFFF;
+     font-family: "times new roman" , serif ;
+    font-style: italic;
+    font-size: 22px;
+}
+
+#navbar{ height:50px; background-color:#000040;
+        margin-top:5px;}
+#navbar table{position:relative;
+			left:50px;
+
+			height:95%;}
+#navbar td{
+
+			border-left:1px solid white;
+			padding-left:60px;
+			padding-right:60px;
+		 }
+#navbar a{color:#FFFFFF;
+			font-size:20px;
+        font-style: italic;
+}
+#newsfeed{
+    border:3px solid #000040;
+    background-color:#FFFFFF;
+    position:relative;
+}
+
+#newsfeeddp{
+    width:25px;
+    height:30px ;
+    position:relative;
+    top:5px;
+    display: inline-block;
+    left:5px;
+}
+#newsline{
+    font-family: "times new roman" , serif ;
+    display: inline;
+    font-size: 22px;
+    font-style: italic;
+    position: relative;
+    left:40px;
+    font-weight: bold;
+    word-spacing: 25px;
+    color:#000040;
+}
+#objectpic{
+    margin-left: 100px  ;
+    margin-right: 100px ;
+    max-height: 980px;
+    max-width: 100%;
+    margin-bottom : 30px;
+    margin-top: 30px;
+}
+#newscontact{
+    display: inline;
+    
+}
+#newscontact h3 {
+    font-family: "Times new roman " , serif;
+    font-size: 24px;
+    font-weight:bold;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#000040;
+}
+
+#newscontactaddress{
+    display: inline;
+    
+
+}
+#newscontactaddress h3{
+     font-family: "Times new roman " , serif;
+    font-size: 24px;
+    font-weight:bold;
+    margin-left: 100px;
+    color:#000040;
+}
+#objectinfo{
+   display: inline;
+   
+}
+#objectinfo h3{
+    font-family: "Times new roman " , serif;
+    font-size: 24px;
+    font-weight:bold;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:#000040;
+}
+#newsupvote{
+    
+    margin-left: 110px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #000040;
+}
+#newscomment{
+    margin-left: 75px;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    color:#000040;
+}
+#footer{
+    background-color:#000050;
+    height: 60px;
+    padding:15px;
+}
+.footerheading{
+    margin:100px;
+    font-family:serif , "times new roman" ;
+    font-size: 20px;
+    font-weight: bolder;
+    color:#FFFFFF;
+    font-weight: 100;
+    font-style: italic;
+	display:inherit;
+}
+#post{
+    border:2px  medium #000040;
+    margin:10px;
+}
+
+#post img{
+    width:80px;
+    height:100px;
+    position: relative;
+    top:25px;
+    left:30px;
+    border:1px solid #000040;
+    
+}
+#post h3{
+    font-family: serif ;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    top:-20px;
+    left:190px;
+    color:#000040;
+}
+#post table{
+    border: 2px solid #000050;
+    
+    padding:20px;
+    width:70%;
+    margin: 0px auto;
+}
+#posttabletitle {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    color:#000040;
+}
+.posttablerow {
+    margin-top:10px;
+    padding:10px;
+    height: 22px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+    color:#000040;
+}
+.textinput{
+    width:100%;
+    height:32px;
+    margin-top:20px;
+    border: 1px solid #000040;
+    
+}
+#ObjectImage{
+    border: 0px ;
+    margin-top: 10px;
+}
+.textareainput{
+    height:100px;
+    border:1px solid #000040;
+    margin-top:10px;
+}
+.submit{
+    width:100px;
+    background-color: #000040;
+    color:#FFFFFF;
+    height:50px;
+    
+    font-style: italic;
+    font-size: 24px;
+    position: relative;
+    left:100px;
+    margin-top: 30px;
+
+}
+#searchtable{
+    margin:0px auto;
+    padding:20px ;
+}
+.searchheading {
+    margin: 20px;
+    font-size: 70px;
+    font-style: italic;
+    
+}
+#searchtable tr th {
+    font-size: 30px;
+    margin-top: 50px;
+    }
+#searchinput{
+    height: 40px;
+    border:1px solid #000040;
+    margin: 50px;
+   width:350px;
+}
+.searchbasis{
+    font-size: 65px;
+    font-style: italic;
+    margin-left: 35px;
+    padding: 10px;
+    color:#000040;
+}
+#Searchsubmit{
+    position: relative;
+    left:200px;
+}
+#statusprofiledp{
+    width:150px;
+    height:200px;
+    border:1px solid #000040;
+    position:relative;
+    top:60px;
+    left:50px;
+    
+}
+#statusprofilename{
+    font-size: 36px;
+    font-weight: bold;
+   text-align: left;
+  position: relative;
+  top:-60px;
+  left:550px;
+  color:#000040;
+  font-style: italic;
+
+}
+#statusprofilebio{
+    font-size: 22px;
+
+   text-align:left;
+  position: relative;
+  top:-55px;
+  left:550px;
+  color:#000040;
+  font-style: italic;
+}
+#statuscontribution{
+    font-size: 30px;
+    margin-bottom: 30px;
+   text-align:left;
+  position: relative;
+  top:0px;
+  left:260px;
+  color:#000040;
+  font-style: italic;
+}
+#aboutsitelogo{
+    margin:30px;
+    width:150px;
+    height:180px;
+    position:relative;
+    left:380px;
+    top:20px;
+
+}
+#aboutsiteobjectives{
+    margin:30px;
+    font-size: 24px;
+    font-style: italic;
+    color:#000040;
+   
+
+}
+#aboutdeveloperheading{
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+#aboutdeveloper h3{
+    color:#000040;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    padding:15px;
+}
+#signinwrapper{
+    
+    
+    
+    margin:80px;
+    margin-bottom: 60px;
+}
+#signinwrapper table{
+    border:1px solid #000040;
+    padding: 30px;
+	width:900px;
+	padding-right:10px;
+}
+#signinwrapper table caption{
+    font-size: 36px;
+    font-style: italic;
+    color:#000040;
+    font-weight: bold;
+    text-align: center;
+	padding-bottom:20px;
+}
+#signinwrapper table tr th{
+    font-size: 26px;
+    font-style: italic;
+    color:#000040;
+    margin:35px;
+}
+.signininput  {
+   
+    height:30px;
+    margin:15px 20px;
+    width:575px;
+	padding-right:50px;
+	float:right;
+	margin-bottom:30px;
+    
+}
+.signininputgender{
+	height:25px;
+    margin:20px;
+    width:300px;
+	display:inherit;
+	margin-bottom:30px;
+	font:20px solid ;
+	font-family:serif;
+}
+#signinsubmit{
+    position:relative;
+    left:-20px;
+    top:-10px;
+    font-size: 30px;
+    width:120px;
+
+}
+#signupline{
+    font:20px italic ;
+    font-family: serif;
+    width:100%;
+    margin-top: 10px;
+}
+#signuplink{
+	visibility:solid;
+	color:#000050;
+}
+#anonymous{
+	margin-top:20px;
+	margin-bottom:20px;
+	border:3px solid #990000;
+	border-radius:10px;
+	min-width:600px;
+
+}
+#anonymoush{
+	margin:20px auto;
+	padding:10px;
+	font:14px serif italic ;
+	font-weight:100;
+	
+}
